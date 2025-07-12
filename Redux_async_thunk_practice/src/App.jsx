@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import Post from './Component/Post'
 
 
 
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-     
+      <Post />
     </>
   )
 }
