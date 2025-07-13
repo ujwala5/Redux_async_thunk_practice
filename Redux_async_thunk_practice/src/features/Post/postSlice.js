@@ -7,7 +7,7 @@ export const fetchPosts = createAsyncThunk('/post/fetchPosts', async () => {
     return response.data;
 })
 
-export const counterSlice = createSlice({
+export const postSlice = createSlice({
     name: "post",
     initialState: {
         value: [],
@@ -34,4 +34,4 @@ export const counterSlice = createSlice({
     }
 });
 
-export default counterSlice.reducer;
+export default postSlice.reducer;
